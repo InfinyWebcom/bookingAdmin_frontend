@@ -1,0 +1,30 @@
+.rowActiver{
+    color:aqua;
+    background-color:rgb(196, 196, 219)
+
+}
+.rowActiver:active{
+    color: azure;
+    background-color:blue
+}
+p:hover {
+    background-color: yellow;
+  }
+#rowsss:active{
+    background-color: yellow;
+}
+.tr:hover {
+    background-color:lightblue;
+  }
+  .modal-backdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
